@@ -1,0 +1,86 @@
+a {
+    color: black;
+    font-size: x-large;
+    text-align: center;
+    border: solid orangered;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    font-size: xx-large;
+}
+
+.products {
+    height: 100vh;
+    margin: 0;
+    color: #333333;
+}
+
+.container {
+    max-width: 1283px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.products_grid {
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 40px;
+}
+
+.products_grid_plate {
+    position: relative;
+    content: "1";
+    background-color: #f5f0dd;
+    width: 260px;
+    height: 240px;
+}
+
+
+.buttons {
+    justify-content: space-around;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+}
+
+.like_button {
+    margin-left: 70px;
+}
+
+.dislike_button {
+}
+
+.counter {
+    text-align: center;
+    line-height: 3;
+    margin-right: 10px;
+}
+
+.button {
+    height: 50px;
+    width: 50px;
+    background-color: #f5f0dd;
+    border-color: transparent;
+    text-decoration: none;
+}
+
+h2 {
+    margin-bottom: -15px;
+    margin-top: 5px;
+}
+
+.text {
+    word-wrap: break-word;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.button_image {
+    width: 30px;
+    height: auto;
+}
